@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="./style.css">
+
+</head>
+<body>
+
+    <script src="./skript.js"></script>
+
+    <div class="zagolovok">Опрацювання масиву чисел</div>
+
+    <div>
+        <form id="forma" onsubmit="return false">
+            <p>Введіть числа:
+                
+                <input id="ni" type="string" required>
+            </p>
+
+            <button type="submit" onclick="area()">Розрахувати</button>
+        </form>
+
+        <table>
+            <tr>
+                <td>
+                   <p>Результат: </p>
+                </td>
+                <td>
+                  <p id="out"></p>
+                </td>
+            </tr>
+        </table>
+    </div>		
+    
+</body>
+</html>
