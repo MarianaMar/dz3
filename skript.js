@@ -51,11 +51,15 @@ const n = 2;
  let nnn = list.length-1;
 
  function minNumber (array) { 
+  //let minfm = Math.min(array);
+ // console.log ("мінімальне число масиву (ч-з Math.min)", array, "=", minfm);
+   // Math.max.array();
      let min = array[0];
      for (let i=0; i<array.length; i++) {
         if (array[i]< min) {min = array[i];}
      }
    console.log ("мінімальне число масиву (ч-з порівняння)", array, "=", min);
+   //return Math.max.array();
    //   array.sort();
    //  let minSort = array[0];
    //  console.log ("мінімальне число масиву (ч-з порівняння) minSort", array, "=", minSort);
@@ -63,7 +67,7 @@ const n = 2;
  }
 
  function maxNumber (array) {
-     let maxN; 
+     let maxN=1; 
      let max = array[0];
      for (let i=0; i<array.length; i++) {
         if (array[i]> max) {max = array[i];  maxN = i+1} 
